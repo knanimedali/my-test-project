@@ -20,7 +20,7 @@ jobs:
       - name: Run Custom SAST Scanner
         # Format is {owner}/{repository_name}@{branch_or_tag}
         # Using '@main' means it will always use the latest version from your main branch.
-        uses: knanimedalii/vulnerability-scanner@main
+        uses: knanimedali/vulnerability-scanner@main
         # 'with:' is used to pass inputs defined in your action.yml
         # We'll use the default scan_path '.', so 'with' is optional here.
         # with:
